@@ -37,7 +37,7 @@
 	(assert (acquisizione))
 )
 
-(defrule aquisizione-elemento "Acquisisce l'agricoltore fino a quando il valore immesso non sara' corretto"
+(defrule aquisizione-elemento "Acquisisce l'elemento fino a quando il valore immesso non sara' corretto"
 	(declare (salience 900))
 	?serve <- (serve-acquisizione ?elemento)
 	(not (su-riva ?elemento ?))

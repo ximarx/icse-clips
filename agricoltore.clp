@@ -1,3 +1,5 @@
+;(batch "agricoltore.clp")
+
 (clear)
 
 (deffacts stato-iniziale "Stato iniziale"
@@ -197,8 +199,6 @@
 	(printout t "Ricominciamo..." crlf)
 	(reset)
 )
-
-;(batch "/home/ximarx/git/icse-clips/agricoltore.clp")
 
 (reset)
 
